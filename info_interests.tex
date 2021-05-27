@@ -1,0 +1,32 @@
+%!TEX root = cv.tex
+\newcommand{\textBox}[1]{
+\hspace*{7pt}
+\begin{tabular}{  p{\dimexpr 0.97\linewidth-2\tabcolsep} }
+  	{\normalsize #1}
+\end{tabular}
+\vspace*{10pt}
+}
+
+\newcommand{\autour}[1]{\tikz[baseline=(X.base)]\node [fill=blue!10,thick,rectangle,inner sep=4pt, rounded corners=4pt] (X) {#1};}
+
+\LARGE
+\noindent\colorbox{materialYellow}
+{\parbox[c][25pt][c]{\textwidth}{\hspace{15pt}\textcolor{white}{Skills}}} %%Contacts separator
+
+%%Contact Information
+\large
+\vspace*{10pt}
+\textcolor{materialYellow}{\textbf{}}\textcolor{textGray}{\textbf{Hard skills:}}\\
+\\
+\textBox{ \normalsize \autour{Manual testing}  \autour{Functional testing}  \autour{Data Analysis}  \autour{Mathematical statistic}  \autour{R}  \autour{Python}  \autour{SQL}  \autour{Web-apps testing}  \autour{Mobile-apps testing}  \autour{Data Bases}  \autour{English}   \autour{this CV was made up in overleaf}
+ %%edit professional interest here
+}
+
+\textcolor{materialYellow}{\textbf{}}\textcolor{textGray}{\textbf{Soft skills:}}
+\\
+\\
+\textBox{ 
+\autour{Communicative}  \autour{Chaotic funny}  \autour{Responsible}  \autour{Punctual}  \autour{Flexible}
+%%edit professional interest here
+}
+

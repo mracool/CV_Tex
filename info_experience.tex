@@ -1,0 +1,33 @@
+%!TEX root = cv.tex
+
+%%Command used in order to make each entry cleaner
+
+\newcommand{\ExperienceEntry}[5]{
+\begin{tabular}{  p{\dimexpr 0.15\linewidth-2\tabcolsep} 
+                   p{\dimexpr 0.70\linewidth-2\tabcolsep}}
+  \textbf{\textcolor{materialRedDark}{#1-}}\textbf{\textcolor{materialRed}{#2}}\hspace{20pt} & \textbf{#3}\\
+  	& \normalsize #4\\
+  	&{\small \textcolor{textLightGray}{#5}}
+\end{tabular}
+\vspace*{10pt}
+}
+
+\LARGE
+\noindent\colorbox{materialRed}
+{\parbox[c][25pt][c]{\textwidth}{\hspace{15pt}\textcolor{white}{Experience}}} %%Contacts separator
+
+%%Contact Information
+\large
+\vspace*{10pt}
+%Add new or alter education entries in this section by using the examples below
+%\ExperienceEntry{starting year}{final year}{Position}{position description if applicable}{Place}
+
+ \ExperienceEntry{05.20}{10.20}{DECK}{QA \& Technical support}{Created tasks for developers, searched for bugs in current system logic, worked directly with customers, analysed new features a bit and tested functionality
+}\\
+\hspace*{10pt}
+ \ExperienceEntry{07.19}{10.19}{Yandex}{Searching assessor}{Helped to fit neuronets by marking up URLs and verifying datasets
+}\\
+
+ \ExperienceEntry{06.18}{11.19}{Kleveria}{SMM \& Other}{Assisted to quiz manager on games, made quiz presentations, managed social medias and prepared content plan 
+}
+%\vspace*{5pt}
