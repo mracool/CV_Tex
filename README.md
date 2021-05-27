@@ -1,6 +1,6 @@
 # MaterialCV
 
-![Material CV preview](https://raw.githubusercontent.com/amng/MaterialCv/master/images/preview.PNG)
+![Material CV preview](https://raw.githubusercontent.com/mracool/CV_tex/blob/fb59e4b95e60c3ac93e4e34fdf5c48c07ebeb38e/pictured_cv.png)
 
 Description: This latex template design was based on the Google Material Design for the new Android 5.0 L version, using the font Roboto from Android.
 
